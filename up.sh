@@ -37,7 +37,7 @@ echo -e $BOSLUQ
 echo "Repo ✅"
 echo -e $BOSLUQ
 rm -rf Qurulum
-git clone https://github.com/uumud/Qurulum
+git clone https://github.com/DucTheVulpe/Qurulum
 clear
 echo -e $BOSLUQ
 echo -e $MESAJ
