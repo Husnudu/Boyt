@@ -239,8 +239,8 @@ else:
     bot = TelegramClient("userbot", API_KEY, API_HASH)
 
 
-if os.path.exists("dtobrain.check"):
-    os.remove("dtobrain.check")
+if os.path.exists("upbrain.check"):
+    os.remove("upbrain.check")
 else:
     LOGS.info("Braincheck faylı yoxdur, getirilir...")
 
