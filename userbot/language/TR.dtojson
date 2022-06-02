@@ -373,7 +373,7 @@
             "REPOS": "Repolar:",
             "GT1": "<kullanıcı adı>",
             "GT2": "Hedeflenen kişinin GitHub bilgilerini gösterir.",
-            "GT3": "git umudmmmdov1",
+            "GT3": "git ducthevulpe",
             "NOT_FOUND": " bulunamadı`"
         },
 
@@ -471,8 +471,8 @@
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
             "SUPPORT_GROUP": "[Buradan](http://t.me/UseratorSUP) destek grubumuza ulaşabilirsiniz.",
             "CREATOR": "Bu bot \n[Ümüd Məmmədov](https://t.me/umudmmmdov1) tarafından geliştirilmiştir. \n",
-            "README": "[U S Σ R Δ T O R README.md](https://github.com/umudmmmdov1/DTOUserBot/blob/master/README.md)",
-            "REPO": "[U S Σ R Δ T O R Repo](https://github.com/umudmmmdov1/dtouserbot)",
+            "README": "[U S Σ R Δ T O R README.md](https://github.com/DucTheVulpe/UseratorBot/blob/master/README.md)",
+            "REPO": "[U S Σ R Δ T O R Repo](https://github.com/DucTheVulpe/UseratorBot)",
             "RD1": "<eşya1> <eşya2>",
             "RD2": "Eşya listesinden rastgele bir eşya seçer",
             "RD3": "random defter kalem kitap",
