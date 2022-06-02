@@ -337,7 +337,7 @@
             "REPOS": "Repo:",
             "GT1": "<имя пользователя>",
             "GT2": "Отображает информацию GitHub о целевом пользователе.",
-            "GT3": "git umudmmmdov1",
+            "GT3": "git ducthevulpe",
             "NOT_FOUND": "`не найдено`"
         },
         "lastfm": {
@@ -429,8 +429,8 @@
             "RESTARTING": "`Бот повторно включается..`",
             "SUPPORT_GROUP": "[Здесь] (http://t.me/UseratorSUP) Вы можете связаться с нашей группой поддержки..",
             "CREATOR": "`Этот бот \nразработал [Ümüd Məmmədov](https://t.me/umudmmmdov1). \n`",
-            "README": "[U S Σ R Δ T O R README.md](https://github.com/umudmmmdov1/DTOUserBot/blob/master/README.md)",
-            "REPO": "[U S Σ R Δ T O R Repo](https://github.com/umudmmmdov1/dtouserbot)",
+            "README": "[U S Σ R Δ T O R README.md](https://github.com/DucTheVulpe/UseratorBot/blob/master/README.md)",
+            "REPO": "[U S Σ R Δ T O R Repo](https://github.com/DucTheVulpe/UseratorBot)",
             "RD1": "<пункт1> <пункт2>",
             "RD2": "Выбирает случайный элемент из списка элементов",
             "RD3": "random блокнот ручка книга",
