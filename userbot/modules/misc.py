@@ -106,7 +106,7 @@ async def creator(e):
 
 @register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
-    await e.edit(LANG['CREATOR'])
+    await e.edit(LANG['README'])
 
 
 # 
