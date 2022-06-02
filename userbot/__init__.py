@@ -319,7 +319,7 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Salam mən ` @UseratorOT`! Mən sahibimə (`@{me.username}`) kömək olmaq üçün varam, yəni sənə köməkçi ola bilmərəm :/ Ama sən da bir DTÖUserBot quraşdıra bilərsən; Kanala bax` @DTOUserBot')
+                await event.reply(f'`Salam mən ` @UseratorOT`! Mən sahibimə (`@{me.username}`) kömək olmaq üçün varam, yəni sənə köməkçi ola bilmərəm :/ Ama sən da bir Userator quraşdıra bilərsən; Kanala bax` @DTOUserBot')
             else:
                 await event.reply(f'`U S Σ R Δ T O R`')
 
