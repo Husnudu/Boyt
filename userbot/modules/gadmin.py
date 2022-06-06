@@ -161,6 +161,34 @@ async def gdemote(event):
         f"**Qlobal olaraq icazə aşağı salındı [{user.first_name}](tg://user?id={user.id})\n**{i} chat'da**"
     )
 
+@register(outgoing=True, pattern="^.gstat ?(.*)")
+async def gstat(event):
+    event= event = event
+    xx = await e.eor(get_string("com_1"))
+if e.is_private:
+        userid = (await e.get_chat()).id
+    elif e.reply_to_msg_id:
+        userid = (await e.get_reply_message()).sender_id
+    elif e.pattern_match.group(1).strip():
+        try:
+            userid = await e.client.parse_id(e.pattern_match.group(1).strip())
+        except Exception as err:
+            return await xx.eor(f"{err}", time=10)
+    else:
+        return await xx.eor("`Reply to some msg or add their id.`", time=5)
+    name = (await e.client.get_entity(userid)).first_name
+    msg = "**" + name + " is "
+    is_banned = is_gbanned(userid)
+    reason = list_gbanned().get(userid)
+    if is_banned:
+        msg += "Globally Banned"
+        msg += f" with reason** `{reason}`" if reason else ".**"
+    else:
+        msg += "not Globally Banned.**"
+    await xx.edit(msg)
+
 CmdHelp('gadmin').add_command(
   'gpromote', '<id/cavab>', 'İstifadəçini admin əlavə etmək səlahiyyətiniz olan bütün qruplarda admin edər').add_command(
-  'gdemote', '<id/cavab>', 'İstifadəçinin admin hüquqlarını qlobal olaraq alar').add()
+  'gdemote', '<id/cavab>', 'İstifadəçinin admin hüquqlarını qlobal olaraq alar').add_command(
+'gstat', '<id/cavab>', 'İstifadəçinin admin hüquqlarını qlobal olaraq alar').add_command(
+'listgban', '<id/cavab>', 'İstifadəçinin admin hüquqlarını qlobal olaraq alar').add()
