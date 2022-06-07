@@ -35,16 +35,9 @@ async def dto(event):
         else:
             await event.edit(LANG["NEED_PLUGIN"])
     else:
+         user = await event.client.get_me()
         string = ""
-        sayfa = [sorted(list(CMD_HELP))[i:i + 3] for i in range(0, len(sorted(list(CMD_HELP))), 4)]
-        
-        for i in sayfa:
-            string += f'__💟 __'
-            for sira, a in enumerate(i):
-                string += "__" + str(a)
-                if sira == i.index(i[-1]):
-                    string += "__"
-                else:
-                    string += "`, "
-            string += "\n"
+        for i in CMD_HELP:
+            string += "`" + str(i)
+    
         await event.edit(LANG["NEED_MODULE"] + '\n\n' + string)
