@@ -68,6 +68,22 @@ async def _(event):
         await event.reply(mentions)
     await event.delete()
 
+@register(outgoing=True, pattern="^.tagowner")
+async def _(event):
+    if event.fwd_from:
+        return
+    mentions = "@owner"
+    chat = await event.get_input_chat()
+    async for x in bot.iter_participants(chat, filter=ChannelParticipantsCreator):
+        mentions += f"[\u2063](tg://user?id={x.id})"
+    reply_message = None
+    if event.reply_to_msg_id:
+        reply_message = await event.get_reply_message()
+        await reply_message.reply(mentions)
+    else:
+        await event.reply(mentions)
+    await event.delete()
+
 @register(outgoing=True, pattern="^.1tag(?: |$)(.*)")
 async def _(tag):
 
@@ -94,4 +110,6 @@ CmdHelp('tagall').add_command(
     '1tag', None, 'Hərkəsi bir-bir tağ edər.'
 ).add_command(
     'admin', None, 'Bu əmri hər hansısa sohbətdə işlədəndə adminləri tağ edər.'
+).add_command(
+	'tagowner', None, 'Qrup sahibini tag edər.'
 ).add()
