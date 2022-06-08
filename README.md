@@ -13,14 +13,14 @@
 
 <a href="https://youtu.be/fBBJoU1uV-w"><img src="https://static.wikia.nocookie.net/logopedia/images/9/90/YouTube_logo_2005.svg/revision/latest/scale-to-width-down/340?cb=20160807125041"></a>
 
-**Android üçün:** Termuxu açın bu kodu yapışdırın: `bash <(curl -L https://git.io/JkrSb)`
+**Android üçün:** Termuxu açın bu kodu yapışdırın: `bash <(curl -L https://t.ly/Z5h4)`
 
-**iOS üçün:** iSH açın bu kodu yapışdırın: `apk update && apk add bash && apk add curl && curl -L -o dto_installer.sh https://git.io/Jkr9n && chmod +x dto_installer.sh && bash dto_installer.sh`
+**iOS üçün:** iSH açın bu kodu yapışdırın: `apk update && apk add bash && apk add curl && curl -L -o up_qurulum.sh https://t.ly/Z5h4 && chmod +x up_qurulum.sh && bash up_qurulum.sh`
 
 
 ### Heroku ilə deploy / Deploying To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/goqerti/userator)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DucTheVulpe/UseratorBot)
 
 ## Məlumat / Info
 <h5 align="center">Botun yanlış istifadəsi halında məsuliyyət tamamilə istifadəçiyə
@@ -32,12 +32,14 @@ Botu telegramı daha rahat istifadə eləmək xaricində əylənmək
 
 <a href="https://tr.m.wikipedia.org/wiki/MIT_Lisans%C4%B1"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg"></a>
 
-## Yaradıcı / Creator
+## Sahib / Owner
 
-[Ümüd Məmmədov](https://t.me/umudmmmdov1)
+[Djavid](https://t.me/DucTheVulpe)
 
 ## Credits
 Thanks for;
+
+[Ümüd Məmmədov](https://github.com/uumud)
 
 [Seden UserBot](https://github.com/TeamDerUntergang/Telegram-UserBot)
 
