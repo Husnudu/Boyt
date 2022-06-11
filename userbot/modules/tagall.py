@@ -21,7 +21,7 @@ import requests
 from collections import deque
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from telethon.tl.types import ChannelParticipantCreator
+from telethon.tl.types import ChannelParticipantsCreator
 from asyncio import sleep
 from random import choice, getrandbits, randint
 from re import sub
