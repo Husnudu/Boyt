@@ -22,6 +22,11 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DucTheVulpe/UseratorBot)
 
+### Render ilə deploy / Deploying To Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/DucTheVulpe/UseratorBot)
+
+
 ## Məlumat / Info
 <h5 align="center">Botun yanlış istifadəsi halında məsuliyyət tamamilə istifadəçiyə
 aiddir.Userator idarəçiləri olaraq heç bir məsuliyyət qəbul etmirik.
