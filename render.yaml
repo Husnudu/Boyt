@@ -9,7 +9,7 @@ services:
     branch: master
     envVars:
       - key: API_KEY 
-        value: 1234567
+        sync: false
       - key: API_HASH 
         sync: false
       - key: PLUGIN_CHANNEL_ID 
