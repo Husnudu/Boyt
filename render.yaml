@@ -27,13 +27,13 @@ services:
       - key: HEROKU_APPNAME
         sync: false    
       - key: UPSTREAM_REPO_URL
-        sync: false    
+        value: https://github.com/DucTheVulpe/UseratorBot
       - key: COUNTRY
-        sync: false    
+        value: Azerbaijan
       - key: TZ_NUMBER
-        sync: false    
+        value: 1
       - key: TZ
-        sync: false    
+        value: Asia/Baku 
       - key: CHROME_DRIVER
         sync: false    
       - key: GOOGLE_CHROME_BIN
