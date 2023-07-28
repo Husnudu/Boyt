@@ -9,7 +9,7 @@ services:
     branch: master
     envVars:
       - key: API_KEY 
-        sync: false
+        #sync: false
         value: 1234567
       - key: API_HASH 
         sync: false
