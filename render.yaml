@@ -10,6 +10,7 @@ services:
     envVars:
       - key: API_KEY 
         sync: false
+        value: 31
       - key: API_HASH 
         sync: false
       - key: PLUGIN_CHANNEL_ID 
