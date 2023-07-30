@@ -4,7 +4,7 @@ services:
     name: Userator
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 -m Userator
+    startCommand: python3 main.py
     repo: https://github.com/DucTheVulpe/UseratorBot    
     branch: master
     envVars:
@@ -36,13 +36,13 @@ services:
       - key: TZ
         value: Asia/Baku 
       - key: CHROME_DRIVER
-        sync: false    
+        value: /usr/bin/chromedriver
       - key: GOOGLE_CHROME_BIN
-        sync: false    
+        value: /usr/bin/chromium-browser
       - key: OPEN_WEATHER_MAP_APPID
         sync: false
       - key: BOTLOG
-        sync: false
+        value: False
       - key: BOT_USERNAME
         sync: false
       - key: BOT_TOKEN
@@ -54,13 +54,13 @@ services:
       - key: DEFAULT_NAME
         sync: false
       - key: BOTLOG_CHATID
-        sync: false
+        value: 0
       - key: CONSOLE_LOGGER_VERBOSE
-        sync: false
+        value: False
       - key: PM_AUTO_BAN
-        sync: false
+        value: False
       - key: PM_AUTO_BAN_LIMIT
-        sync: false
+        value: 4
       - key: YOUTUBE_API_KEY
         sync: false
       - key: OCR_SPACE_API_KEY
@@ -68,11 +68,11 @@ services:
       - key: REM_BG_API_KEY
         sync: false
       - key: ANTI_SPAMBOT
-        sync: false
+        value: False
       - key: ANTI_SPAMBOT_SHOUT
-        sync: false
+        value: False
       - key: TMP_DOWNLOAD_DIRECTORY
-        sync: false
+        value: ./downloads/
       - key: CLEAN_WELCOME
         sync: false
       - key: G_DRIVE_CLIENT_ID
@@ -88,7 +88,7 @@ services:
       - key: BIO_PREFIX
         sync: false
       - key: DEFAULT_BIO
-        sync: false
+        value: U S Σ R Δ T O R @UseratorOT
       - key: G_DRIVE_CLIENT_SECRET
         sync: false
       - key: G_DRIVE_AUTH_TOKEN_DATA
@@ -98,17 +98,17 @@ services:
       - key: WEATHER_DEFCITY
         sync: false
       - key: LOGSPAMMER
-        sync: false
+        value: False
       - key: WARN_LIMIT
-        sync: false
+        value: 3
       - key: WARN_MODE
-        sync: false
+        value: gmute
       - key: GALERI_SURE
         sync: false
       - key: PAKET_ISMI
         sync: false
       - key: AVTO_Q
-        sync: false
+        value: True
       - key: LANGUAGE
-        sync: false
+        value: AZ
     autoDeploy: false
