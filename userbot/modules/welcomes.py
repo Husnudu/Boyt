@@ -168,7 +168,7 @@ async def del_welcome(event):
 CmdHelp('welcome').add_command(
     'setwelcome', '<qarşılama mesajı>', 'Mesajı söhbətə qarşılama notu olaraq qeyd edər.'
 ).add_command(
-    'checkwelcome', None, 'Söhbətdə qarşılama notu olub olmadığını yoxlayar.'
+    'checkwelcome', None, 'Söhbətdə qarşılamaaa notu olub olmadığını yoxlayar.'
 ).add_command(
     'rmwelcome', None, 'Keçərli söhbət üçün qarşılama notunu silər.'
 ).add_info(
