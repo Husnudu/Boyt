@@ -93,7 +93,7 @@
     },
     "BOTLOG": {
       "description": "# TOXUNMA #",
-      "value": "False"
+      "value": "True"
     },
     "BOT_USERNAME": {
       "description": "Inline bot özəlliyinin işləməsi üçün lazımdır. Buraya botunuzun istifadəçi adınız yazmanız lazımdır (Məsələn: @UmudBot). Botunuz yoxdursa @BotFather köməyi ilə bot yarada bilərsiz.",
@@ -117,7 +117,7 @@
    },
     "BOTLOG_CHATID": {
       "description": "Günlük qrupunun ChatID'si. BOTLOG= False və / vəya LOGSPAMMER= False isə '0' olaraq qeyd edin...",
-      "value": "0"
+      "value": "-4151773139"
     },
     "CONSOLE_LOGGER_VERBOSE": {
       "description": "Konsol günlüyündə detaya ehtiyacınız varsa, bunu True olaraq qeyd edin.",
