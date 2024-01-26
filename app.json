@@ -17,10 +17,12 @@
   "env": {
     "API_KEY": {
       "description": "Bu dəyəri my.telegram.org adresindən alın.",
+      "value": "23415390",
       "required": true
     },
     "API_HASH": {
       "description": "Bu dəyəri my.telegram.org adresindən alın.",
+      "value": "893de33dd3b9df2e9f06c762d5979e9c",
       "required": true
     },
     "PLUGIN_CHANNEL_ID": {
@@ -37,6 +39,7 @@
     },
     "STRING_SESSION": {
       "description": "StringSession keyi bura yapışdırın.",
+      "value": "1ApWapzMBu6284hEdK8a_nrm9dV6AHkIX8y_xjjf7aNR_OFMtYslcVJuuFzcZzE74yJmU1x8-JKT4aYU6lH_TYAf4-V-gNo0M-nwLrjPCblkYFHe32KPz36xQyfn4TWAH5kLvj_vhbk4pCY2KUuiue8Oxd13AIa77npPZBQDyCXNTtQrU2YSQlMLQ2x349eddqVApJSoUQnbtee7nc4LNa7Wqt_rEGyspPJUYLkBFEAutTErPkoh_TPaMRJEd0Z-xoQEVbsva8C0btLeK-W4n4cqtZd7srsfWzQAYBMO0vIKst-IozS10qm6i_r0K1W4s58Y1j-7jNI_YLX2uMgXjUcaWvjZf6go=",
       "required": true
     },
     "HEROKU_MEMEZ": {
@@ -46,15 +49,17 @@
     },
     "HEROKU_APIKEY": {
       "description": "Heroku API Key, 'https://dashboard.heroku.com/account' adresindən alın.",
-      "value": ""
+      "value": "b65a6c3c-2033-477c-b888-f7b8f57c5094",
+      "required": true
     },
     "HEROKU_APPNAME": {
       "description": "Heroku app adını bura yazın. UserBot yenilənmələrinə kömək olur.",
+      "value": "azfaf",
       "required": true
     },
     "UPSTREAM_REPO_URL": {
       "description": "Bura toxunmayın.",
-      "value": "https://github.com/DucTheVulpe/UseratorBot",
+      "value": "https://github.com/Husnudu/Boyt",
       "required": true
     },
     "COUNTRY": {
